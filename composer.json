@@ -1,0 +1,21 @@
+{
+    "name": "kfeldmaier/yii2-angular",
+    "description": "An Extension for Yii2 Applications with AngularJS Frontend",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","AngularJS"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kai Feldmaier",
+            "email": "kai.feldmaier@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kfeldmaier\\angular\\": ""
+        }
+    }
+}
